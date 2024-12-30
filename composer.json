@@ -1,6 +1,6 @@
 {
   "name": "panda/panda-core",
-  "description": "A core PHP framework for internal use",
+  "description": "The Panda Framework",
   "type": "library",
   "license": "MIT",
   "authors": [
@@ -11,14 +11,8 @@
   ],
   "autoload": {
     "psr-4": {
-      "Panda\\": "Core/",
-      "Panda\\Config\\": "Config/",
-      "Panda\\Helpers\\": "Helpers/",
-      "Panda\\Traits\\": "Traits/"
-    },
-    "files": [
-      "Helpers/helper.php"
-    ]
+      "PandaCore\\": "src/"
+    }
   },
   "require": {}
 }
