@@ -1,0 +1,24 @@
+{
+  "name": "panda/panda-core",
+  "description": "A core PHP framework for internal use",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "杨志龙",
+      "email": "zhilong2412@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Panda\\": "Core/",
+      "Panda\\Config\\": "Config/",
+      "Panda\\Helpers\\": "Helpers/",
+      "Panda\\Traits\\": "Traits/"
+    },
+    "files": [
+      "Helpers/helper.php"
+    ]
+  },
+  "require": {}
+}
