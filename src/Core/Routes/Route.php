@@ -8,7 +8,7 @@ class Route
 {
     private $uri;
     private $action;
-    private $middlewares = [];
+    private array $middlewares = [];
 
     public function __construct($uri, $action)
     {
@@ -32,7 +32,7 @@ class Route
         return $this->action;
     }
 
-    public function getMiddlewares()
+    public function getMiddlewares(): array
     {
         return $this->middlewares;
     }
